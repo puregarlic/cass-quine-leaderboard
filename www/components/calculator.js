@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import Card from './card'
 import { Form, Label, NumInput, Submit } from './form'
 
-const calculate = (cool, size, time) => cool * 70000 - (size * 500 + time)
+const calculate = (cool, size, time) => cool * 70000 - (size * 300 + time)
 
 export default () => {
   const initialCool = process.browser
