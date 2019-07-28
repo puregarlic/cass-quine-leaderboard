@@ -97,6 +97,11 @@ const Page = props => {
         />
         <meta name="theme-color" content="#ffffff" />
         <title>CASS Quine Challenge Leaderboard</title>
+        <meta
+          name="description"
+          content="View submission rankings and see how your quine program stacks up against other challengers"
+        />
+        <meta name="author" content="Graham Barber" />
         <link href="https://rsms.me/inter/inter.css" rel="stylesheet" />
       </Head>
       <Container>
