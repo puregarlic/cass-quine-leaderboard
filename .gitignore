@@ -1,0 +1,5 @@
+*/node_modules
+.next
+.linaria-cache
+.DS_Store
+.env

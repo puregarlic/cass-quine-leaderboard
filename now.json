@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "name": "cass-quine-leaderboard",
+  "alias": ["cass-quine-leaderboard.now.sh"],
+  "builds": [
+    { "src": "www/package.json", "use": "@now/next" },
+    { "src": "api/*.js", "use": "@now/node" }
+  ],
+  "routes": [
+    { "src": "/api/(.*)", "dest": "api/$1.js" },
+    { "src": "/(.*)", "dest": "www/$1" }
+  ],
+  "env": {
+    "AIRTABLE_KEY": "@airtable-key"
+  }
+}
